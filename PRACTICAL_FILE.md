@@ -2,11 +2,12 @@
 # **PROGRAMMING FOR PROBLEM SOLVING ESC-18105**
 ----
 ![](https://nptel.ac.in/content/college_assets/college_logo/1078_logo.jpg)
-![](https://www.google.com/maps/uv?pb=!1s0x390ce699035dfd39%3A0x45fc3c544d653e47!3m1!7e131!5sVimlesh%20Kumar!15sCAQ&hl=en&imagekey=!1e10!2sAF1QipMYvPYVzuhMqVAueU7ol0MzP7mUIdXJDph_rNn2)
 ----
+'''
 ## ***NAME*** - *VIMLESH KUMAR*
 ## **ROLL NO.** - *1915093*
 ## **BRANCH** - *COMPUTER SCIENCE*
+'''
 ----
 # PROGRAMS
 ----
