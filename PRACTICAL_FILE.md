@@ -353,9 +353,12 @@ int main()
         printf("\n gcd is %d \n",c);
         return 0;
 }
-                         
-                         # OR
 
+                         
+                                     **********************OR*******************
+                                     
+                                     
+                                     
 #include<stdio.h>
 int main()
 {       
