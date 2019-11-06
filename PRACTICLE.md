@@ -3,7 +3,7 @@
 ----
 ![](https://nptel.ac.in/content/college_assets/college_logo/1078_logo.jpg)
 ----
-## **NAME** - *VIMLESH KUMAR*
+## ***NAME*** - *VIMLESH KUMAR*
 ## **ROLL NO.** - *1915093*
 ## **BRANCH** - *COMPUTER SCIENCE*
 ----
@@ -16,7 +16,7 @@
 void main()
 {
         int a,b;
-        printf("enter the two number to be added\n");
+        printf("Enter the two number to be added\n");
         scanf("%d%d",&a,&b);
         printf("Sum  : %d + %d = %d \n",a,b,a+b);
 
@@ -24,14 +24,14 @@ void main()
 ```
 
 ----
-## 2. AVERAGE
+## 2. AVG.OF N NUMBER
 ```C
 #include<stdio.h>
 void main()     
 {
         int n;
         float sum=0;
-        printf("enter number of elements \n");
+        printf("Enter number of elements \n");
 
         scanf("%d",&n);
         int a[n];
@@ -43,18 +43,18 @@ void main()
         }
         float avg;
         avg = sum/n;
-        printf("average of %d elements is %0.2f \n",n,avg);
+        printf("Average of %d elements is %0.2f \n",n,avg);
 }       
 ```
 
 ----
-## 3. WEEKDAYS
+## 3. WEEKDAYS BY USING SWITCH STATEMENT
 ```C
 #include<stdio.h>
 void main()
 {
         int a;
-        printf("enter any integer between 1 to 7\n");
+        printf("Enter any integer between 1 to 7\n");
         scanf("%d",&a);
         switch(a)
         {
@@ -80,14 +80,14 @@ void main()
                         printf("SUNDAY\n");
                         break;
                 default :
-                        printf("enter number between 1 to 7\n");
+                        printf("Enter number between 1 to 7\n");
                         break;
         }
 }  
 ```
 
 ----
-## 4. EVEN ODD CHECK
+## 4. NUMBER IS EVEN OR ODD
 ```C
 #include<stdio.h>
 void main()
@@ -146,7 +146,7 @@ int main()
 ```
 
 ----
-## 7. CALCULATOR DIAGRAM
+## 7. CALCULATOR
 ```C
 #include<stdio.h>
 
@@ -202,55 +202,39 @@ int main()
 ## 9. BINARY SEARCH
 ```C
 #include<stdio.h>
-        
-int check(int b[],int m,int o)
-{       
-        int p=-1,mid;
- int f=1,l=m;
- mid=(f+l)/2;           
+int main()      
+{               
+        int m,n,a[100],search,first,last,middle;
+        printf("Enter the size of array");
+        scanf("%d",&m);
+                
+        printf("Enter %d numbar\n",m);
+                
+        for(n=0;n<m;n++)
+                scanf("%d",&a[n]);
+        printf("Enter the the number u want to search\n");
+        scanf("%d",&search);
 
-while(f<=l)
- {
-        mid=(f+l)/2;
-        if(b[mid]==o)
-        {
-                p=mid;
-                break;
-        }
-        else if(o>b[mid])
-        {
-                f=mid+1;
-        }
-        else if (o<b[mid])
-        {
-                l=mid-1;
-        }
-        
-}       
-                        return p;
-        
-}     
-       
-void main()
-{       
-        int n,num,index;
-        printf("enter the array size\n");
-        scanf("%d",&n);
-        int a[n];
-        printf("enter the array elements in assending order\n");
-        for(int i=1;i<=n;i++)
-        {
-                scanf("%d",&a[i]);
-        }
-        printf("now enter the number which you want to check\n whether it is present or not in entered array\n");
-        
-        scanf("%d",&num);
-        index=check(a,n,num);
-        if(index==-1)   
-        printf("element is not found\n");
-        else
-        printf("element is found at the position %d \n",index);
+        first=0;
+        last=m-1;
+        middle=(first+last)/2;
 
+        while(first<=last)
+        {
+                if(a[middle]<search)
+                        first=middle+1;
+                else if(a[middle]==search)
+                {
+                        printf("%d found at location %d\n",search,middle+1);
+                        break;
+                }
+                else
+                        last=middle-1;
+                middle=(first+last)/2;
+        }
+        if(first>last)
+                printf("Not found! %d is not present in the list \n",search);
+        return 0;
 }
 ```
 ----
