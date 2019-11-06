@@ -10,7 +10,7 @@
 # PROGRAMS
 ----
 
-## 1. SUM OF TWO NUMBERS
+## 1. ADD TWO NUMBERS
 ```C
 #include<stdio.h>
 void main()
@@ -24,7 +24,7 @@ void main()
 ```
 
 ----
-## 2. AVERAGE OF N NUMBERS
+## 2. AVERAGE
 ```C
 #include<stdio.h>
 void main()     
