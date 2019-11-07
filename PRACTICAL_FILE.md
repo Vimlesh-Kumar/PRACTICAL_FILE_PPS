@@ -1,7 +1,8 @@
 ----
 # **PROGRAMMING FOR PROBLEM SOLVING ESC-18105**
 ----
-![](https://nptel.ac.in/content/college_assets/college_logo/1078_logo.jpg  https://www.gndec.ac.in/gndec/gne_front.jpg)
+![](https://nptel.ac.in/content/college_assets/college_logo/1078_logo.jpg)
+![](https://www.gndec.ac.in/gndec/gne_front.jpg)
 ----
 ---
 ## **NAME** - ***VIMLESH KUMAR***
