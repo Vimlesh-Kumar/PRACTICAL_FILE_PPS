@@ -403,6 +403,7 @@ int main()
         return 0;
     }
 ---
+```
 ### OUTPUT
 
 Enter a year: 1900
@@ -410,7 +411,6 @@ Enter a year: 1900
 Enter a year: 2012
 2012 is a leap year.
 
-```
 ----
 ## 17. LINEAR SEARCH
 ```C
