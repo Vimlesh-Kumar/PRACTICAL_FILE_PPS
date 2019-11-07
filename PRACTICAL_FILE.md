@@ -410,11 +410,12 @@ int main()
 ---
 ```
 ### OUTPUT
-
+```
 Enter a year: 1900
 1900 is not a leap year.
 Enter a year: 2012
 2012 is a leap year.
+```
 
 ----
 ## 17. LINEAR SEARCH
