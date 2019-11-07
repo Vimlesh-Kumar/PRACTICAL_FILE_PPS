@@ -29,8 +29,8 @@ void main()
 ### OUTPUT
 ```
 Enter the two number to be added
-26 35
-Sum  : 26 + 35 = 61 
+14 35
+Sum  : 14 + 35 = 49
 ```
 
 ----
