@@ -1,8 +1,6 @@
 ----
 # **PROGRAMMING FOR PROBLEM SOLVING ESC-18105**
 ----
-
-
 ----
 ---
 ## **NAME** - ***VIMLESH KUMAR***
