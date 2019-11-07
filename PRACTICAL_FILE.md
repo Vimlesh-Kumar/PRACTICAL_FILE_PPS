@@ -1,6 +1,7 @@
 ----
 #                  **PROGRAMMING FOR PROBLEM SOLVING ESC-18105**
 ---
+![](https://www.logolynx.com/images/logolynx/9f/9f2c4042d28462d69f738e6018bb4ff9.jpeg)
 ---
 ## **NAME** - ***VIMLESH KUMAR***
 ## **ROLL NO.** - *1915093*
